@@ -1,0 +1,101 @@
+Certainly! JavaScript offers a variety of string methods to manipulate and handle text data. Here's a more detailed look at some of the commonly used string functions in JavaScript:
+
+1. **charAt(index)**: Returns the character at the specified index.
+   javascript
+   'hello'.charAt(1); // "e"
+   
+
+2. **concat(...strings)**: Joins two or more strings and returns a new joined string.
+   javascript
+   'Hello'.concat(' ', 'world!'); // "Hello world!"
+   
+
+3. **includes(searchString, position)**: Determines whether the calling string contains the specified string.
+   javascript
+   'Hello world!'.includes('world'); // true
+   
+
+4. **indexOf(searchValue, fromIndex)**: Returns the index of the first occurrence of the specified value, starting the search at fromIndex.
+   javascript
+   'hello world'.indexOf('world'); // 6
+   
+
+5. **lastIndexOf(searchValue, fromIndex)**: Returns the index of the last occurrence of the specified value.
+   javascript
+   'hello world world'.lastIndexOf('world'); // 12
+   
+
+6. **match(regexp)**: Retrieves the result of matching a string against a regular expression.
+   javascript
+   'hello world'.match(/[a-z]/g); // ["h", "e", "l", "l", "o", "w", "o", "r", "l", "d"]
+   
+
+7. **repeat(count)**: Constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.
+   javascript
+   'abc'.repeat(3); // "abcabcabc"
+   
+
+8. **replace(searchFor, replaceWith)**: Replaces occurrences of a substring or pattern with another substring or new substring from a function result.
+   javascript
+   'hello world'.replace('world', 'everyone'); // "hello everyone"
+   
+
+9. **search(regexp)**: Executes a search for a match between a regular expression and this String object.
+   javascript
+   'hello world'.search('world'); // 6
+   
+
+10. **slice(beginIndex, endIndex)**: Extracts a section of a string and returns it as a new string.
+    javascript
+    'hello world'.slice(0, 5); // "hello"
+    
+
+11. **split(separator, limit)**: Splits a String object into an array of strings by separating the string into substrings.
+    javascript
+    'hello world'.split(' '); // ["hello", "world"]
+    
+
+12. **substring(indexStart, indexEnd)**: Returns the part of the string between the start and end indexes, or to the end of the string.
+    javascript
+    'hello world'.substring(1, 4); // "ell"
+    
+
+13. **toLowerCase()**: Returns the calling string value converted to lowercase.
+    javascript
+    'HELLO WORLD'.toLowerCase(); // "hello world"
+    
+
+14. **toUpperCase()**: Returns the calling string value converted to uppercase.
+    javascript
+    'hello world'.toUpperCase(); // "HELLO WORLD"
+    
+
+15. **trim()**: Trims whitespace from both ends of a string.
+    javascript
+    '   hello world   '.trim(); // "hello world"
+    
+
+16. **trimStart() or trimLeft()**: Trims whitespace from the beginning of a string.
+    javascript
+    '   hello world'.trimStart(); // "hello world"
+    
+
+17. **trimEnd() or trimRight()**: Trims whitespace from the end of a string.
+    javascript
+    'hello world   '.trimEnd(); // "hello world"
+    
+
+18. **valueOf()**: Returns the primitive value of a string object.
+    javascript
+    new String('hello').valueOf(); // "hello"
+    
+
+These methods provide a robust toolkit for string manipulation in JavaScript, allowing for efficient and effective text processing in your applications.
+
+
+
+
+doubts to ask:-
+
+:root {--clr-primary-100:} in css 
+

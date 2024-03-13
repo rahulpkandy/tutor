@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container{
+            background-color:white;
+            box-shadow: 0px 0px 10px rgb(0, 0, 0, 1);
+            border-radius: 5px;
+            width: 300px;
+            padding: 20px;
+        }
+        .submitform{
+          margin: 0px auto;
+          
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction:column;
+            align-items: center;
+
+        }
+        .submitbutton{
+            display: block;
+            color: blue;
+            width: 55%;
+            margin-top: 10px;
+            padding: 5px;
+        }
+        input{
+            padding: 5px;
+            margin: 5px 0px;
+            width: 50%;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+                
+    <form class="submitform">
+        <input type="text" name="Name" placeholder="Enter Name">
+        <input type="number" name="Age" placeholder="Enter Age">
+        <input type="text" name="Place" placeholder="Enter Place">
+        <input type="email" name="email" placeholder="Enter email">
+        <input type="number" name="Phone no" placeholder="Enter Phone Number">
+        <button class="submitbutton" type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

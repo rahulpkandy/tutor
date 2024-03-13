@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 30%;
+            background-color: rgb(19, 203, 19);
+            padding-top: 20px;
+            padding-bottom: 10px;
+            align-items: center;
+        }
+
+        .mainbox {
+            width: 80%;
+            background-color: white;
+            border-width: 2px;
+            border-color: black;
+
+        }
+
+        .mainbox1 {
+            padding-left: 10px;
+        }
+
+        #nameTag {
+            width: 90%;
+        }
+
+        #emailTag {
+            width: 90%;
+        }
+
+        #ageTag {
+            width: 90%;
+        }
+
+        #select {
+            width: 90%;
+        }
+
+        #comments {
+            width: 90%;
+        }
+
+        #submit {
+            width: 90%;
+            background-color: rgb(19, 203, 19);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h2>GeeksforGeeks Survey Form</h2>
+        <div class="mainbox">
+            <div class="mainbox1">
+                <form>
+                    <br>
+                    <label>Name</label><br>
+                    <input type="text" id="nameTag" placeholder="Enter Your Name"><br><br>
+                    <label>Email</label><br>
+                    <input type="email" id="emailTag" placeholder="Enter Your email"><br><br>
+                    <label>Age</label><br>
+                    <input type="number" id="ageTag" placeholder="Enter Your Age"><br><br>
+                    <label>Which option describes you best?</label>
+                    <select id="select">
+                        <option>Hello1</option>
+                        <option>Hello2</option>
+                        <option>Hello3</option>
+                        <option>Hello4</option>
+                        <option>Hello5</option>
+                    </select><br>
+                    <p>
+                        <tr>
+                            <label>Would you recommend GeksforGeeks to a friend?</label><br>
+                            <input type="radio" name="option">Yes<br>
+                            <input type="radio" name="option">No<br>
+                            <input type="radio" name="option">May be<br>
+                        </tr>
+                    </p>
+
+                    <label>Languages and Framworks known (Check all that apply)</label><br>
+                    <input type="checkbox">
+                    <label>C</label><br>
+                    <input type="checkbox">
+                    <label>C++</label><br>
+                    <input type="checkbox">
+                    <label>C#</label><br>
+                    <input type="checkbox">
+                    <label>Java</label><br>
+                    <input type="checkbox">
+                    <label>Python</label><br>
+                    <input type="checkbox">
+                    <label>JavaScript</label><br>
+                    <input type="checkbox">
+                    <label>React</label><br>
+                    <input type="checkbox">
+                    <label>Angular</label><br>
+                    <input type="checkbox">
+                    <label>DJango</label><br>
+                    <input type="checkbox">
+                    <label>Spring</label><br>
+                    <p>
+                        <label>Any Comments or suggestions</label><br>
+                        <textarea id="comments"></textarea>
+                    </p>
+
+                    <input type="submit" id="submit">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
